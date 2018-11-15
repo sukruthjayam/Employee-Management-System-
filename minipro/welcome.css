@@ -1,0 +1,21 @@
+body { 
+    background-image:url(7.jpg);
+
+   background-repeat:no-repeat;
+
+   background-size:cover;
+
+}
+
+
+h1{
+	font-size: 100px;
+color: white;
+font-family: serif;
+text-align: center;
+padding-top: 150px;
+}
+
+div{
+    text-align:center;
+}

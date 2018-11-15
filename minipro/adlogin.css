@@ -1,0 +1,20 @@
+body { 
+    background-image:url(loginbg1.jpg);
+
+   background-repeat:no-repeat;
+
+   background-size:cover;
+   color: black;
+}
+div.ex1 {
+    width:500px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+label{
+	font-family:sans-serif; 
+}
+.card-header{
+  font-size: 30px;
+}

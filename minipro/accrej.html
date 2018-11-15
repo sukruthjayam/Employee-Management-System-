@@ -1,0 +1,41 @@
+<?php include 'dbconn.php' ?>
+<!DOCTYPE html>
+<?php
+
+?>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+     <table class="table" >
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">userid
+      <th scope="col">Description</th>
+      <th scope="col">From</th>
+      <th scope="col">To</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php
+    while ($row = mysqli_fetch_array($res3)) {
+      echo "<tr>";
+      echo "<td>".$row['reqno']."</td>";
+      echo "<td>".$row['description']."</td>";
+      echo "<td>".$row['from']."</td>";
+      echo "<td>".$row['to']."</td>";
+      echo "<td>".$row['status']."</td>";
+    echo "</tr>";
+    }
+    
+    ?>
+  </tbody>
+</table>
+</div>
+
+</body>
+</html>
